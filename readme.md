@@ -10,8 +10,8 @@
 
 ## 安裝方式
 
-1. 將本專案的 `TMP_SpriteText` 夾拖入你的 Unity 專案中。
-2. 確保專案已導入 **TextMeshPro**。
+1. 確保專案已導入 **TextMeshPro**。
+2. 下載 Releases 的 `TMP_SpriteText.unitypackage` 並匯入你的 Unity 專案中。
 
 ## 使用方式
 
