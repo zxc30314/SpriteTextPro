@@ -24,8 +24,16 @@
 ### 在場景上生成元件
 
 1. 在 Hierarchy 右鍵選單 > `GameObject > UI > SpriteText - TextMeshPro` 建立元件。
-2. 將你自訂的 `TMP_Sprite Asset` 指定給 `spriteAsset` 欄位。
+2. 將你自訂的 `TMP_Sprite Asset` 指定給 `SpriteAsset` 欄位。
 3. 設定 `text` 屬性，如：
 
 ```csharp
-spriteText.text = "123+-";
+    [SerializeField] private TMP_SpriteText spriteText;
+    
+    void Start()
+    {
+        spriteText.text = "123,456,789";
+        var text = spriteText.text;
+        Debug.Log(text);
+    }
+
