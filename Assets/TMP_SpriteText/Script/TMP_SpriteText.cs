@@ -21,8 +21,8 @@ namespace pruss.Tool.TextMeshPro
         [SerializeField] private TextAlignmentOptions textAlignment;
 
         // ReSharper disable once InconsistentNaming
-        public string m_text;
-        private readonly StringBuilder _stringBuilder = new StringBuilder(11 * 15);
+        [SerializeField] private string m_text;
+        private readonly StringBuilder _stringBuilder = new(11 * 15);
 
         // ReSharper disable once InconsistentNaming
         public string text
