@@ -1,14 +1,12 @@
 # SpriteTextPro
 
-**SpriteTextPro** 是一個 Unity 套件，用來擴充 [TextMeshPro (TMP)]，將普通文字自動轉換為 `<sprite>` 標籤，搭配 `TMP_SpriteAsset` 顯示自訂圖像（例如符號、美術字）。適合用於 UI 中需以圖像形式顯示文字內容的應用情境，如 RPG 遊戲中的圖示文字、技能符號。
+**SpriteTextPro** 是一個 Unity 套件，用來擴充 [TextMeshPro (TMP)]，將文字自動轉換為 `<sprite>` 標籤，搭配 `TMP_SpriteAsset` 顯示自訂圖像（例如符號、美術字）。適合用於 UI 中需以圖像形式顯示文字內容的應用情境，如 RPG 遊戲中的圖示文字、技能符號。
 
 ## 功能特色
 
-- ✅ 使用Unity 內建的 Sprite Editor 進行切圖，並且產生 `TMP_Sprite Asset`
+- ✅ 使用Unity 內建的 Sprite Editor 進行切圖，並且一鍵產生 `TMP_Sprite Asset`
 - ✅ 自動將文字轉換為 TMP `<sprite name="X">` 格式
 - ✅ 支援雙向轉換（原始文字 <-> Sprite Tag）
-- ✅ 編輯器工具：一鍵建立 SpriteText UI 元件
-- ✅ 支援自定義 SpriteAsset 調整（包含 `metrics` 修正）
 
 ## 安裝方式
 
